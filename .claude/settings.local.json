@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m pytest tests/test_api_endpoints.py -v)",
+      "Bash(python3 -m pytest tests/test_api_endpoints.py -v)",
+      "Bash(chmod:*)",
+      "Bash(git commit:*)",
+      "Bash(poetry install:*)",
+      "Bash(npm install)"
+    ],
+    "deny": []
+  }
+}
